@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+header{
+    background: #FFF8F3;
+
+}
+nav{
+    width: 80%;
+    max-width: 1200px;
+    padding: 50px 230px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    font-size: 45px;
+    font
+    font-weight: 900;}
+.colore{
+    color: #FD6E0A;
+}
+nav .manu{
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+nav .msnu a{
+    font-size: 20px;
+    color: #474747;
+    
+}
+
+.btn{
+    background: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font: 20px;
+    font-weight: bold;
+    color: white;
+}
