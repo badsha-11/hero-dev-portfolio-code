@@ -13,13 +13,15 @@
   
 }
 header{
-    background: #FFF8F3;
-
+    background-color: #FFF8F3;
+    background: url(../images/developer.png) , url(../images/Untitled-1.png) , #FFF8F3 ;
+    background-position: left top, bottom right;
+    background-repeat: no-repeat;
 }
 nav{
-    width: 80%;
-    max-width: 1200px;
-    padding: 50px 230px 0px 230px;
+    width: 100%;
+    max-width: 1450px;
+    padding: 45px 143px 0px 225px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -30,7 +32,7 @@ nav{
     font
     font-weight: 900;}
 .colore{
-    color: #FD6E0A;
+    color: #00c3ff;
 }
 nav .manu{
     display: flex;
@@ -44,11 +46,40 @@ nav .msnu a{
 }
 
 .btn{
-    background: #FD6E0A;
+     background-color: #00c3ff;
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
-    font: 20px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+}
+#banner{
+    margin: 46px 38px 0px 319px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 518px;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #00c3ff;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    color: #474747;
+}
+#banner .banner-img img{
+    vertical-align: middle;
 }
