@@ -13,10 +13,25 @@
   
 }
 header{
+    min-height: 100vh;
+
     background-color: #FFF8F3;
-    background: url(../images/developer.png) , url(../images/Untitled-1.png) , #FFF8F3 ;
-    background-position: left top, bottom right;
-    background-repeat: no-repeat;
+
+    background-image:
+        url(../images/developer.png),
+        url(../images/Untitled-1.png);
+
+    background-repeat:
+        no-repeat,
+        no-repeat;
+
+    background-position:
+        80px center,        /* developer bg → বামে */
+        bottom right;      /* নীল shape → same জায়গা */
+
+    background-size:
+        auto,
+        auto;
 }
 nav{
     width: 100%;
@@ -54,9 +69,31 @@ nav .msnu a{
     font-weight: bold;
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
+.btn:hover{
+    background-color: #bcefff;
+    box-shadow: 0 0 10px rgba(80, 135, 255, 0.589);
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-heading p{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+    line-height: 30px;
+}
+
 #banner{
-    margin: 46px 38px 0px 319px;
+    margin: 46px 38px 0px 369px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,4 +119,42 @@ nav .msnu a{
 }
 #banner .banner-img img{
     vertical-align: middle;
+}
+.btn-group{
+    display: flex;
+    gap: 30px;
+}
+    
+
+/* about section */
+
+#about{
+    padding: 130px 230px;
+    text-align: center;
+}
+#about .about-contaner{
+    /* width: 86%;
+    max-width: 1445px;; */
+    width: 90%;
+    max-width: 1450px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+#about .about-contaner .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+    line-height: 30px;
+}
+.about-info .info-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    
 }
